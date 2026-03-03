@@ -1,0 +1,8 @@
+{
+  "version": "1.0.1",
+  "release_date": "2026-03-03",
+  "download_url": "https://github.com/houmenghor/udemy-course-downloader/releases/download/v1.0.1/UdemyCourseDownloader.exe",
+  "changelog": [
+    "License badge in header showing remaining days (green / yellow / red)"
+  ]
+}

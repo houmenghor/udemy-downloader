@@ -1,8 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "release_date": "2026-03-04",
-  "download_url": "https://github.com/houmenghor/udemy-downloader/releases/download/v1.0.0/UdemyCourseDownloader.exe",
+  "download_url": "https://github.com/houmenghor/udemy-downloader/releases/download/v1.0.1/UdemyCourseDownloader.exe",
   "changelog": [
-    "Initial release with core features for downloading Udemy courses."
+    "Fix: Resources/supplementary assets now download correctly (empty folder bug fixed).",
+    "Fix: Missing subtitles on some lectures now fetched automatically on re-run.",
+    "Fix: Subtitle repair on skip no longer re-burns already-burned videos.",
+    "Improvement: Reduced API calls per lecture by reusing cached lecture data."
   ]
 }
+
